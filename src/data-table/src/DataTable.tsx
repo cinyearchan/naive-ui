@@ -260,6 +260,7 @@ export default defineComponent({
       filters,
       clearFilters,
       clearSorter,
+      clearSelections: doUncheckAll,
       page,
       sort,
       clearFilter,

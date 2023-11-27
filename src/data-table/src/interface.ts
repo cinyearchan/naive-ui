@@ -510,6 +510,7 @@ export type OnFilterMenuChangeImpl = (
 export interface DataTableInst {
   filter: (filters: FilterState | null) => void
   filters: (filters: FilterState | null) => void
+  clearSelections: () => void
   clearFilters: () => void
   clearSorter: () => void
   page: (page: number) => void
